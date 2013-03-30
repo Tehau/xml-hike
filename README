@@ -1,0 +1,7 @@
+Projet de Master 1, le but est de pouvoir générer des documents au format PDF /
+HTML à partir de fichiers XML. Ici, les documents en questions sont des fiches
+de randonnées.
+A partir de fichiers XML structurés, nous devons pouvoir générer des documents
+identiques à ceux présentés en exemples dans le sous répertoire documents/
+
+[XML, XSLT, XPATH, XSL-FO ...]
