@@ -35,101 +35,247 @@
             <etape>
                 <id>1</id>
                 <titre>La ferme Capdevielle</titre>
-                <distance></distance>
-                <temps></temps>
-                <description></description>
+                <loc>
+                    <latitude>43.0129947</latitude>
+                    <longitude>-0.6137323</longitude>
+                </loc>
+                <distance>1485m</distance>
+                <temps>00h45</temps>
+                <description>
+                    (Alt. 710 m). 500 m en aval de la ferme Capdevielle, démarrer
+                    au niveau d'un vieux panneau (tour du...), en direction de l'est.
+                    Une petite sente marquée remonte le talus de la route. La
+                    suivre sur une quarantaine de mètres de dénivelé par un vague
+                    sentier encombré de ronces et de prunelliers hirsutes en
+                    direction du nord dans un enchevêtrement de sentes
+                    d'animaux. Au bout de 10 minutes, revenez après un virage
+                    vers le sud en direction d'un bois de chêne. Une traversée à
+                    flanc toujours dans un enchevêtrement de ronces abrasives,
+                    conduit à l'entrée du bois où le sentier devient d'un coup plus
+                    large, plus clair et plus facile, comme il est proposé sur la carte
+                    IGN. (0h20) Remonter jusqu'à revenir presque à l'aplomb de la
+                    ferme Capdevielle (balise jaune et rouge sur un arbre). Le
+                    sentier conduit à la sortie du bois pour s'élancer sur les flancs
+                    sud du Layens. La progression devient agréable, le rythme de
+                    la marche magnifique au-dessus du formidable bassin de
+                    Bedous. Quelques chênes isolés et parsemés indiquent la limite
+                    supérieure de ce type d'arbres.
+                </description>
             </etape>
             <etape>
                 <id>2</id>
                 <titre>Les ruines de la cabane du Layens</titre>
-                <distance></distance>
-                <temps></temps>
-                <description></description>
+                <loc>
+                    <latitude>43.017631</latitude>
+                    <longitude>-0.631750</longitude>
+                </loc>
+                <distance>1210m</distance>
+                <temps>00h30</temps>
+                <description>
+                    (Alt. 1000 m). Le chemin, en quelques virages, conduit aux
+                    ruines d'une cabane sous un frêne isolé (1010 m). Abreuvoir.
+                    Poursuivre au-dessus facilement en gagnant de l'altitude
+                    jusqu'à venir buter sur une clôture de fil électrique à l'aplomb
+                    d'un abrupt impressionnant. Contourner cet obstacle par des
+                    zigzags faciles jusqu'au point 1245 m indiqué sur la carte.
+                    (1h15 du départ)
+                </description>
             </etape>
             <etape>
                 <id>3</id>
                 <titre>La cabane d'Arrés</titre>
-                <distance></distance>
-                <temps></temps>
-                <description></description>
+                <loc>
+                    <latitude>43.016564</latitude>
+                    <longitude>-0.637820</longitude>
+                </loc>
+                <distance>965m</distance>
+                <temps>00h25</temps>
+                <description>
+                    (1h30) Une traversée facile en courbes de niveau conduit à la
+                    première cabane détruite d'Arrés au toit de tôle dans un lapiaz
+                    affleurant. L'abondance de ruines d'enclos de pierres traduit
+                    l'importance de ces estives. Contourner par le nord et rejoindre
+                    la deuxième cabane d'Arrés en bien meilleur état dans un
+                    paysage tourmenté.
+                </description>
             </etape>
             <etape>
                 <id>4</id>
-                <titre>La cabane d'Arrés</titre>
-                <distance>Soum de Lastutas</distance>
-                <temps></temps>
-                <description></description>
+                <titre>Soum de Lastutas</titre>
+                <loc>
+                    <latitude>43.020848</latitude>
+                    <longitude>-0.645393</longitude>
+                </loc>
+                <distance>544m</distance>
+                <temps>00h35</temps>
+                <description>
+                    Un abreuvoir indique le point de départ de la montée vers le
+                    nord dans les contreforts du Soum de Lastutas sur les pentes
+                    faciles dans lesquelles on effectue des virages pour s'élever en
+                    écharpe jusqu'au....
+                </description>
             </etape>
             <etape>
                 <id>5</id>
                 <titre>Le col d'Houssa</titre>
-                <distance></distance>
-                <temps></temps>
-                <description></description>
+                <loc>
+                    <latitude>43.021052</latitude>
+                    <longitude>-0.638052</longitude>
+                </loc>
+                <distance>905m</distance>
+                <temps>00h20</temps>
+                <description>
+                    ... col d'Houssa à 1503 m. Une crête facile vers l'ouest dans
+                    des pentes herbeuses au milieu des genévriers étalés conduit
+                    à un collet anonyme (1550 m) au pied du dernier ressaut du
+                    Layens que l'on franchit facilement. Nous appellerons le collet
+                    du nom du sommet le plus proche à l'est : col de Lastutas.
+                </description>
             </etape>
             <etape>
                 <id>6</id>
                 <titre>Sommet du Layens</titre>
-                <distance></distance>
-                <temps></temps>
-                <description></description>
+                <loc>
+                    <latitude>43.025064</latitude>
+                    <longitude>-0.655413</longitude>
+                </loc>
+                <distance>770m</distance>
+                <temps>00h25</temps>
+                <description>
+                    Parvenez au sommet dominé par un pylône métallique de 2
+                    mètres (en cas d'orage ne restez pas là !). Belvédère immense
+                    sur le Pic du midi de Bigorre, le Gabizos, le Ger, Sesques,
+                    Bisaurin, Anie, Orhy et la plaine de Pau.
+                </description>
             </etape>
             <etape>
                 <id>7</id>
                 <titre>Versant sud du Layens</titre>
-                <distance></distance>
-                <temps></temps>
-                <description></description>
+                <loc>
+                    <latitude>43.024804</latitude>
+                    <longitude>-0.655510</longitude>
+                </loc>
+                <distance>745m</distance>
+                <temps>00h30</temps>
+                <description>
+                    Retour : Du sommet, plonger plein sud dans des pentes
+                    herbeuses peu raides d'environ 200 mètres vers un ensemble
+                    de cabanes aux toits de tôles posé au bord de la piste qui
+                    monte du col de Bergout vers la cabane de Ligarce.
+                </description>
             </etape>
             <etape>
                 <id>8</id>
                 <titre>La cabane de Ligarce</titre>
-                <distance></distance>
-                <temps></temps>
-                <description></description>
+                <loc>
+                    <latitude>43.018814</latitude>
+                    <longitude>-0.653864</longitude>
+                </loc>
+                <distance>670m</distance>
+                <temps>00h30</temps>
+                <description>
+                    Prendre cette piste vers l'est et passer au-dessus de la cabane
+                </description>
             </etape>
             <etape>
                 <id>9</id>
                 <titre>Cabane du Layens</titre>
-                <distance></distance>
-                <temps></temps>
-                <description></description>
+                <loc>
+                    <latitude>43.017631</latitude>
+                    <longitude>-0.631750</longitude>
+                </loc>
+                <distance>4380m</distance>
+                <temps>01h00</temps>
+                <description>
+                    ...puis d'une autre sans nom sur la carte IGN, moderne et
+                    refaite à neuf, pour rejoindre le chemin au grand abreuvoir de
+                    ce matin au-dessus de la cabane d'Arres. Depuis ce point, le
+                    retour s'effectue par le même chemin que ce matin dans les
+                    pelouses puis les ruines de la cabane du Layens en 1h00
+                    jusqu'à la voiture. La totalité de la boucle s'effectue en 5h00.
+                </description>
             </etape>
         </etapes>
         <ftechnique>
-            <information></information>
-            <recommandations></recommandations>
-            <difficulte></difficulte>
-            <epoque></epoque>
-            <denivele></denivele>
-            <longueur></longueur>
+            <information>
+                Office de Tourisme de Bedous : 05 59 34 71
+                48. Pensez à téléphoner à la météo : 08 92 68 02 + (N°
+                département : 64)
+            </information>
+            <recommandations>
+                La description de cet itinéraire suit à
+                peu de chose près le tracé en pointillé fin de la carte Top 25
+                IGN. Ce départ est plus encombré de végétation que celui
+                décrit par G. Véron (guide Randonnées choisies en Béarn) qui
+                démarre derrière la ferme Capdevielle mais nettement plus
+                facile à trouver. Eviter de pratiquer cette randonnée l'hiver ou
+                en présence de neige. De même, ne s'engager que par temps
+                clair quand l'orientation est facile.
+            </recommandations>
+            <difficulte>
+                RANDO FACILE
+            </difficulte>
+            <epoque>
+                PRINTEMPS ETE AUTOMNE
+            </epoque>
+            <denivele>
+            915m
+            </denivele>
+            <longueur>
+            11674m
+            </longueur>
             <altitude>
-                <depart></depart>
-                <arrivee></arrivee>
-                <max></max>
+                <depart>710m</depart>
+                <arrivee>1625m</arrivee>
+                <max>1625m</max>
             </altitude>
-            <temps></temps>
+            <temps>05:00:00 h</temps>
             <lieu>
-                <depart></depart>
-                <arrivee></arrivee>
+                <depart>Parking du Layens</depart>
+                <arrivee>Parking du Layens</arrivee>
             </lieu>
             <commune>
-                <depart></depart>
-                <arrivee></arrivee>
+                <depart>Osse-en-Aspe</depart>
+                <arrivee>Osse-en-Aspe</arrivee>
             </commune>
         </ftechnique>
         <finformation>
-            <carte></carte>
-            <carroyage></carroyage>
-            <nom></nom>
-            <acces></acces>
+            <carte>OLORON-STE-MARIE</carte>
+            <carroyage>1546OT</carroyage>
+            <nom>IGN TOP25</nom>
+            <acces>
+                Rejoindre Osse-en-Aspe par la N134 et sa
+                déviation qui relie la D237. A l'entrée du village, au niveau du
+                panneau d'Osse, prendre à droite direction Ipère, Pimparela,
+                Camping. 250 m plus loin, laisser à un croisement le village à
+                gauche (panneau multiservices) et prendre à droite en direction
+                du camping municipal, Ipère, Pimparela (panneaux) ; se
+                présente alors une nouvelle fourche au niveau du camping,
+                laisser la direction d'Osse à gauche et prendre alors à droite
+                vers le nord. Parcourir 2 km, un nouveau croisement se
+                présente où on laisse la direction Pimparela, Ipère (panneau,
+                abreuvoir, table de pique-nique) à droite pour se diriger vers la
+                gauche (panneau : Prodouqui, Cousteil). 2 km plus loin, laisser
+                Cousteil à gauche à une fourche et poursuivre vers Prodouqui ;
+                une large épingle vous ramène en direction du sud où après
+                150 m on croise un chemin montant d'Osse (panneau brisé :
+                tour du ...) en direction du Layens.
+                PARKING : Laisser la voiture à gauche dans l'herbe au niveau
+                du petit bois, 50 m en amont du panneau précédemment cité.
+            </acces>
             <parking></parking>
             <type>
-                <parcours></parcours>
-                <chemin></chemin>
-                <terrain></terrain>
+                <parcours>BOUCLE</parcours>
+                <chemin>CHEMIN DE TERRE; SENTIER BALISE</chemin>
+                <terrain>PENTE D'HERBE</terrain>
             </type>
-            <materiel></materiel>
+            <materiel>
+                Chaussures de marche avec semelle en relief,
+                emporter des vêtements chauds et une veste imperméable, le
+                temps en montagne peut changer rapidement. N'oubliez pas
+                des vivres et de l'eau. Respecter les cabanes de berger et les
+                clôtures (pensez à les fermer).
+            </materiel>
         </finformation>
     </randonnee>
 </randonnees>
