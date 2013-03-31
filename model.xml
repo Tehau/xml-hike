@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<randonnees>
+    <randonnee>
+        <nom></nom>
+        <bandeau>
+            <circuit></circuit>
+            <image nom="" src="" />
+        </bandeau>
+        <situation></situation>
+        <introduction></introduction>
+        <description></description>
+        <etapes>
+            <etape>
+                <id></id>
+                <titre></titre>
+                <distance></distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+        </etapes>
+        <ftechnique>
+            <information></information>
+            <recommandations></recommandations>
+            <difficulte></difficulte>
+            <epoque></epoque>
+            <denivele></denivele>
+            <longueur></longueur>
+            <altitude>
+                <depart></depart>
+                <arrivee></arrivee>
+                <max></max>
+            </altitude>
+            <temps></temps>
+            <lieu>
+                <depart></depart>
+                <arrivee></arrivee>
+            </lieu>
+            <commune>
+                <depart></depart>
+                <arrivee></arrivee>
+            </commune>
+        </ftechnique>
+        <finformation>
+            <carte></carte>
+            <carroyage></carroyage>
+            <nom></nom>
+            <acces></acces>
+            <parking></parking>
+            <type>
+                <parcours></parcours>
+                <chemin></chemin>
+                <terrain></terrain>
+            </type>
+            <materiel></materiel>
+        </finformation>
+    </randonnee>
+</randonnees>

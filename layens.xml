@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<randonnees>
+    <randonnee>
+        <nom>Le Layens depuis Osse-en-Aspe.</nom>
+        <bandeau>
+            <circuit>Pas de circuit</circuit>
+            <image nom="" src="" />
+        </bandeau>
+        <situation>Vallée d'Aspe, Bassin de Bedous.</situation>
+        <introduction>
+            Les crêtes du Layens dans un ample paysage pastoral
+            offrent des vues variées sur les montagnes d'Aspe. Des
+            lointains basques parsemés de fermes blanches et
+            par-dessus les arêtes d'Ossau jusqu'en Bigorre, c'est une
+            marche facile qui peut intéresser les randonneurs débutants
+            et autres amoureux des grands espaces
+        </introduction>
+        <description>
+            Le bassin de Bedous est remarquable. Ample, verdoyant,
+            pastoral, sept villages en composent le fond et créent une
+            harmonie unique qui rend la vallée d'Aspe si attachante. Il
+            est fermé à l'ouest par un chaînon d'altitude peu élevé qui
+            relie le pic d'Oueillarisse au Layens. L'échancrure des cols
+            de Bergout et d'Hourataté sert de passage vers la vallée de
+            Lourdios et la profonde forêt d'Issaux. Le chemin remonte
+            un long épaulement herbeux qui démarre presque dans le
+            village d'Osse en Aspe et offre tout le long de l'itinéraire une
+            vue dégagée sur le Pic d'Anie et les arres de Camplong. La
+            traversée de multiples ruines autour des cabanes d'Arres
+            témoigne de l'intense activité pastorale qui régnait sur ces
+            pentes gazonnées.
+        </description>
+        <etapes>
+            <etape>
+                <id>1</id>
+                <titre>La ferme Capdevielle</titre>
+                <distance></distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+            <etape>
+                <id>2</id>
+                <titre>Les ruines de la cabane du Layens</titre>
+                <distance></distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+            <etape>
+                <id>3</id>
+                <titre>La cabane d'Arrés</titre>
+                <distance></distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+            <etape>
+                <id>4</id>
+                <titre>La cabane d'Arrés</titre>
+                <distance>Soum de Lastutas</distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+            <etape>
+                <id>5</id>
+                <titre>Le col d'Houssa</titre>
+                <distance></distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+            <etape>
+                <id>6</id>
+                <titre>Sommet du Layens</titre>
+                <distance></distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+            <etape>
+                <id>7</id>
+                <titre>Versant sud du Layens</titre>
+                <distance></distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+            <etape>
+                <id>8</id>
+                <titre>La cabane de Ligarce</titre>
+                <distance></distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+            <etape>
+                <id>9</id>
+                <titre>Cabane du Layens</titre>
+                <distance></distance>
+                <temps></temps>
+                <description></description>
+            </etape>
+        </etapes>
+        <ftechnique>
+            <information></information>
+            <recommandations></recommandations>
+            <difficulte></difficulte>
+            <epoque></epoque>
+            <denivele></denivele>
+            <longueur></longueur>
+            <altitude>
+                <depart></depart>
+                <arrivee></arrivee>
+                <max></max>
+            </altitude>
+            <temps></temps>
+            <lieu>
+                <depart></depart>
+                <arrivee></arrivee>
+            </lieu>
+            <commune>
+                <depart></depart>
+                <arrivee></arrivee>
+            </commune>
+        </ftechnique>
+        <finformation>
+            <carte></carte>
+            <carroyage></carroyage>
+            <nom></nom>
+            <acces></acces>
+            <parking></parking>
+            <type>
+                <parcours></parcours>
+                <chemin></chemin>
+                <terrain></terrain>
+            </type>
+            <materiel></materiel>
+        </finformation>
+    </randonnee>
+</randonnees>
