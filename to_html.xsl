@@ -55,11 +55,11 @@
                     </section>
 
                     <!--
-                         Ajout des photos correspondant  chacune des etapes
+                         Ajout des photos correspondant a chacune des etapes
                          a l'aide d'une boucle
                     -->
                     <section>
-                        <xsl:for-each select="randonnee/etapes/photos/image">
+                        <xsl:for-each select="randonnee/etapes/etape/image">
                             <img width="200" height="200" class="inblock mleft10 mbot30">
                                 <xsl:attribute name="src">
                                     <xsl:value-of select="./@src" />

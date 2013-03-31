@@ -35,20 +35,10 @@
         pentes gazonnées.
     </description>
     <etapes>
-        <photos>
-            <image nom="1er etape" src="documents/images/layens/sub1.jpg" />
-            <image nom="2eme etape" src="documents/images/layens/sub2.jpg" />
-            <image nom="3eme etape" src="documents/images/layens/sub3.jpg" />
-            <image nom="4eme etape" src="documents/images/layens/sub4.jpg" />
-            <image nom="5eme etape" src="documents/images/layens/sub5.jpg" />
-            <image nom="6eme etape" src="documents/images/layens/sub6.jpg" />
-            <image nom="7eme etape" src="documents/images/layens/sub7.jpg" />
-            <image nom="8eme etape" src="documents/images/layens/sub8.jpg" />
-            <image nom="9eme etape" src="documents/images/layens/sub9.jpg" />
-        </photos>
         <etape>
             <id>1</id>
             <titre>La ferme Capdevielle</titre>
+            <image nom="1er etape" src="documents/images/layens/sub1.jpg" />
             <loc>
                 <latitude>43.0129947</latitude>
                 <longitude>-0.6137323</longitude>
@@ -79,6 +69,7 @@
         <etape>
             <id>2</id>
             <titre>Les ruines de la cabane du Layens</titre>
+            <image nom="2eme etape" src="documents/images/layens/sub2.jpg" />
             <loc>
                 <latitude>43.017631</latitude>
                 <longitude>-0.631750</longitude>
@@ -98,6 +89,7 @@
         <etape>
             <id>3</id>
             <titre>La cabane d'Arrés</titre>
+            <image nom="3eme etape" src="documents/images/layens/sub3.jpg" />
             <loc>
                 <latitude>43.016564</latitude>
                 <longitude>-0.637820</longitude>
@@ -116,6 +108,7 @@
         <etape>
             <id>4</id>
             <titre>Soum de Lastutas</titre>
+            <image nom="4eme etape" src="documents/images/layens/sub4.jpg" />
             <loc>
                 <latitude>43.020848</latitude>
                 <longitude>-0.645393</longitude>
@@ -132,6 +125,7 @@
         <etape>
             <id>5</id>
             <titre>Le col d'Houssa</titre>
+            <image nom="5eme etape" src="documents/images/layens/sub5.jpg" />
             <loc>
                 <latitude>43.021052</latitude>
                 <longitude>-0.638052</longitude>
@@ -149,6 +143,7 @@
         <etape>
             <id>6</id>
             <titre>Sommet du Layens</titre>
+            <image nom="6eme etape" src="documents/images/layens/sub6.jpg" />
             <loc>
                 <latitude>43.025064</latitude>
                 <longitude>-0.655413</longitude>
@@ -165,6 +160,7 @@
         <etape>
             <id>7</id>
             <titre>Versant sud du Layens</titre>
+            <image nom="7eme etape" src="documents/images/layens/sub7.jpg" />
             <loc>
                 <latitude>43.024804</latitude>
                 <longitude>-0.655510</longitude>
@@ -181,6 +177,7 @@
         <etape>
             <id>8</id>
             <titre>La cabane de Ligarce</titre>
+            <image nom="8eme etape" src="documents/images/layens/sub8.jpg" />
             <loc>
                 <latitude>43.018814</latitude>
                 <longitude>-0.653864</longitude>
@@ -194,6 +191,7 @@
         <etape>
             <id>9</id>
             <titre>Cabane du Layens</titre>
+            <image nom="9eme etape" src="documents/images/layens/sub9.jpg" />
             <loc>
                 <latitude>43.017631</latitude>
                 <longitude>-0.631750</longitude>
