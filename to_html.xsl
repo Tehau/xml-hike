@@ -24,20 +24,64 @@
                 <h3>SITUATION : <xsl:value-of select="randonnee/situation" /></h3>
                 <article>
 
-                    <section>
+                    <img width="400" height="300" class="mright40 fleft">
+                        <xsl:attribute name="src">
+                            <xsl:value-of select="randonnee/photo/image/@src" />
+                        </xsl:attribute>
+                    </img>
+
+                    <section class="inblock width450">
                         <p class="center"><xsl:value-of select="randonnee/introduction" /></p>
-                        <p><xsl:value-of select="randonnee/description" /></p>
+                        <p class="justify"><xsl:value-of select="randonnee/description" /></p>
                     </section>
 
-                    <section>
-                        <img class="bandeau" src="documents/images/50.jpg" />
-                        <h2>Description</h2>
 
+                    <img class="bandeau" src="documents/images/50.jpg" />
+                    <h2>Description</h2>
+                    <section class="inblock width550">
                         <xsl:for-each select="randonnee/etapes/etape">
                             <h4><xsl:value-of select="id" /> - <xsl:value-of select="titre" /></h4>
                             <h5>distance : <xsl:value-of select="distance" /> - temps : <xsl:value-of select="temps" /></h5>
                             <p><xsl:value-of select="description" /></p>
                         </xsl:for-each>
+                    </section>
+
+                    <section class="fright">
+                        <img width="200" height="200" class="block">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="randonnee/etapes/photo/image1/@src" />
+                            </xsl:attribute>
+                        </img>
+                        <img width="200" height="200" class="block">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="randonnee/etapes/photo/image2/@src" />
+                            </xsl:attribute>
+                        </img>
+                        <img width="200" height="200" class="block">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="randonnee/etapes/photo/image3/@src" />
+                            </xsl:attribute>
+                        </img>
+                        <img width="200" height="200" class="block">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="randonnee/etapes/photo/image4/@src" />
+                            </xsl:attribute>
+                        </img>
+                        <img width="200" height="200" class="block">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="randonnee/etapes/photo/image5/@src" />
+                            </xsl:attribute>
+                        </img>
+                        <img width="200" height="200" class="block">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="randonnee/etapes/photo/image6/@src" />
+                            </xsl:attribute>
+                        </img>
+                        <img width="200" height="200" class="block">
+                            <xsl:attribute name="src">
+                                <xsl:value-of select="randonnee/etapes/photo/image7/@src" />
+                            </xsl:attribute>
+                        </img>
                     </section>
 
                     <section class="fiche fleft inblock">

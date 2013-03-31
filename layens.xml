@@ -7,6 +7,9 @@
         <circuit>Pas de circuit</circuit>
         <image nom="top" src="documents/images/50.jpg" />
     </bandeau>
+    <photo>
+        <image nom="main" src="documents/images/layens/main.jpg" />
+    </photo>
     <situation>Vallée d'Aspe, Bassin de Bedous.</situation>
     <introduction>
         Les crêtes du Layens dans un ample paysage pastoral
@@ -32,6 +35,17 @@
         pentes gazonnées.
     </description>
     <etapes>
+        <photo>
+            <image1 nom="sub1" src="documents/images/layens/sub1.jpg" />
+            <image2 nom="sub2" src="documents/images/layens/sub2.jpg" />
+            <image3 nom="sub3" src="documents/images/layens/sub3.jpg" />
+            <image4 nom="sub4" src="documents/images/layens/sub4.jpg" />
+            <image5 nom="sub5" src="documents/images/layens/sub5.jpg" />
+            <image6 nom="sub6" src="documents/images/layens/sub6.jpg" />
+            <image7 nom="sub7" src="documents/images/layens/sub7.jpg" />
+            <image8 nom="sub8" src="documents/images/layens/sub8.jpg" />
+            <image9 nom="sub9" src="documents/images/layens/sub9.jpg" />
+        </photo>
         <etape>
             <id>1</id>
             <titre>La ferme Capdevielle</titre>

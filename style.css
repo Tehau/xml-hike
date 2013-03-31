@@ -55,6 +55,11 @@ h5
     font-weight: bold;
 }
 
+.mainpic
+{
+
+}
+
 .fiche
 {
     width: 330px;
@@ -67,17 +72,14 @@ h5
     display: block;
 }
 
-/* Index */
-#main_art
+.width450
 {
-	width: 550px;
+    width: 450px;
 }
 
-#t_band_main
+.width550
 {
-	display: inline-block;
-	margin-left: 90px;
-	margin-top: -30px;
+    width: 550px;
 }
 
 .fleft
@@ -187,9 +189,9 @@ h5
 	margin-right: 15px;
 }
 
-.mright400
+.mright40
 {
-	margin-right: 400px;
+	margin-right: 40px;
 }
 
 .subdots
