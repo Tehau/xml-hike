@@ -218,12 +218,8 @@
             <epoque>
                 PRINTEMPS ETE AUTOMNE
             </epoque>
-            <denivele>
-            915m
-            </denivele>
-            <longueur>
-            11674m
-            </longueur>
+            <denivele>915m</denivele>
+            <longueur>11674m</longueur>
             <altitude>
                 <depart>710m</depart>
                 <arrivee>1625m</arrivee>

@@ -4,4 +4,15 @@ de randonnées.
 A partir de fichiers XML structurés, nous devons pouvoir générer des documents
 identiques à ceux présentés en exemples dans le sous répertoire documents/
 
-[XML, XSLT, XPATH, XSL-FO ...]
+[XML, XML Schema, XSLT, XPATH, XSL-FO ...]
+
+
+Réalisé sans IDE, parce que c'est le mal, à l'aide de :
+
+- vi(m)
+- xmllint (paquet libxml2) pour la validation de syntaxe / structure
+    (commande utilisée : xmllint --valid file.xml)
+- xsltproc (paquet libxslt) pour la transformation XML -> HTML
+    (commande utilisée : xsltproc file.xml)
+
+
