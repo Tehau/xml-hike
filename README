@@ -15,4 +15,4 @@ Réalisé sans IDE, parce que c'est le mal, à l'aide de :
 - xsltproc (paquet libxslt) pour la transformation XML -> HTML
     (commande utilisée : xsltproc file.xml > file.html)
 
-
+Git : https://github.com/kamek-pf/xml-hike.git
