@@ -13,16 +13,26 @@
                 <meta name="description" content="Fiche de randonnée" />
             </head>
             <body>
+                <img class="bandeau">
+                    <xsl:attribute name="src">
+                        <xsl:value-of select="randonnee/bandeau/image/@src" />
+                    </xsl:attribute>
+                </img>
+                <h2><xsl:value-of select="randonnee/bandeau/circuit" /></h2>
+
                 <h1><xsl:value-of select="randonnee/nom" /></h1>
                 <h3>SITUATION : <xsl:value-of select="randonnee/situation" /></h3>
                 <article>
-                 
+
                     <section>
-                        <p><xsl:value-of select="randonnee/introduction" /></p>
+                        <p class="center"><xsl:value-of select="randonnee/introduction" /></p>
                         <p><xsl:value-of select="randonnee/description" /></p>
                     </section>
 
                     <section>
+                        <img class="bandeau" src="documents/images/50.jpg" />
+                        <h2>Description</h2>
+
                         <xsl:for-each select="randonnee/etapes/etape">
                             <h4><xsl:value-of select="id" /> - <xsl:value-of select="titre" /></h4>
                             <h5>distance : <xsl:value-of select="distance" /> - temps : <xsl:value-of select="temps" /></h5>
@@ -30,7 +40,7 @@
                         </xsl:for-each>
                     </section>
 
-                    <section>
+                    <section class="fiche fleft inblock">
                         <h3>FICHE TECHNIQUE</h3>
                         <p>
                             <b>INFORMATION : </b><xsl:value-of select="randonnee/ftechnique/information" /><br />
@@ -50,7 +60,7 @@
                         </p>
                     </section>
 
-                    <section>
+                    <section class="fiche inblock mleft200"> 
                         <h3>FICHE D'INFORMATION</h3>
                         <p>
                             <b>CARTE NECESSAIRE : </b><xsl:value-of select="randonnee/finformation/carte" /><br />

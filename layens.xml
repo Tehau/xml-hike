@@ -5,7 +5,7 @@
     <nom>Le Layens depuis Osse-en-Aspe.</nom>
     <bandeau>
         <circuit>Pas de circuit</circuit>
-        <image nom="" src="" />
+        <image nom="top" src="documents/images/50.jpg" />
     </bandeau>
     <situation>Vallée d'Aspe, Bassin de Bedous.</situation>
     <introduction>

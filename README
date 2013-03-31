@@ -13,6 +13,6 @@ Réalisé sans IDE, parce que c'est le mal, à l'aide de :
 - xmllint (paquet libxml2) pour la validation de syntaxe / structure
     (commande utilisée : xmllint --valid file.xml)
 - xsltproc (paquet libxslt) pour la transformation XML -> HTML
-    (commande utilisée : xsltproc file.xml)
+    (commande utilisée : xsltproc file.xml > file.html)
 
 
