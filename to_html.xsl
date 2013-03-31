@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="html" encoding="utf-8" indent="yes" />
+
+    <xsl:template match="/">
+        <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html></xsl:text>
+        <html lang="fr">
+            <head>
+                <meta charset="utf-8" />
+                <meta name="author" content="Bertrand 'Kamek' BOUSQUET" />
+                <link rel="stylesheet" type="text/css" href="style.css" />
+                <title>XML to HTML | Randonnée</title>
+                <meta name="description" content="Fiche de randonnée" />
+            </head>
+            <body>
+                <h1><xsl:value-of select="randonnee/nom" /></h1>
+                <h3>SITUATION : <xsl:value-of select="randonnee/situation" /></h3>
+                <article>
+                 
+                    <section>
+                        <p><xsl:value-of select="randonnee/introduction" /></p>
+                        <p><xsl:value-of select="randonnee/description" /></p>
+                    </section>
+
+                    <section>
+                        <xsl:for-each select="randonnee/etapes/etape">
+                            <h4><xsl:value-of select="id" /> - <xsl:value-of select="titre" /></h4>
+                            <h5>distance : <xsl:value-of select="distance" /> - temps : <xsl:value-of select="temps" /></h5>
+                            <p><xsl:value-of select="description" /></p>
+                        </xsl:for-each>
+                    </section>
+
+                    <section>
+                        <h3>FICHE TECHNIQUE</h3>
+                        <p>
+                            <b>INFORMATION : </b><xsl:value-of select="randonnee/ftechnique/information" /><br />
+                            <b>RECOMMANDATIONS : </b><xsl:value-of select="randonnee/ftechnique/recommandations" /><br />
+                            <b>DIFFICULTE : </b><xsl:value-of select="randonnee/ftechnique/difficulte" /><br />
+                            <b>EPOQUE CONSEILLEE : </b><xsl:value-of select="randonnee/ftechnique/epoque" /><br />
+                            <b>DENIVELE TOTAL : </b><xsl:value-of select="randonnee/ftechnique/denivele" /><br />
+                            <b>LONGUEUR TOTALE : </b><xsl:value-of select="randonnee/ftechnique/longueur" /><br />
+                            <b>ALTITUDE DE DEPART : </b><xsl:value-of select="randonnee/ftechnique/altitude/depart" /><br />
+                            <b>ALTITUDE D'ARRIVEE : </b><xsl:value-of select="randonnee/ftechnique/altitude/arrivee" /><br />
+                            <b>ALTITUDE MAXI : </b><xsl:value-of select="randonnee/ftechnique/altitude/max" /><br />
+                            <b>HORRAIRE TOTAL : </b><xsl:value-of select="randonnee/ftechnique/temps" /><br />
+                            <b>LIEU DE DEPART : </b><xsl:value-of select="randonnee/ftechnique/lieu/depart" /><br />
+                            <b>LIEU D'ARRIVEE : </b><xsl:value-of select="randonnee/ftechnique/lieu/arrivee" /><br />
+                            <b>COMMUNE PROCHE DU DEPART : </b><xsl:value-of select="randonnee/ftechnique/commune/depart" /><br />
+                            <b>COMMUNE PROCHE DE L'ARRIVEE : </b><xsl:value-of select="randonnee/ftechnique/commune/arrivee" /><br />
+                        </p>
+                    </section>
+
+                    <section>
+                        <h3>FICHE D'INFORMATION</h3>
+                        <p>
+                            <b>CARTE NECESSAIRE : </b><xsl:value-of select="randonnee/finformation/carte" /><br />
+                            <b>CARROYAGE : </b><xsl:value-of select="randonnee/finformation/carroyage" /><br />
+                            <b>NOM : </b><xsl:value-of select="randonnee/finformation/nom" /><br />
+                            <b>ACCES ROUTIER : </b><xsl:value-of select="randonnee/finformation/acces" /><br />
+                            <b>TYPE DE PARCOURS : </b><xsl:value-of select="randonnee/finformation/type/parcours" /><br />
+                            <b>TYPE DE CHEMIN : </b><xsl:value-of select="randonnee/finformation/type/chemin" /><br />
+                            <b>TYPE DE TERRAIN : </b><xsl:value-of select="randonnee/finformation/type/terrain" /><br />
+                            <b>MATERIEL : </b><xsl:value-of select="randonnee/finformation/materiel" /><br />
+                        </p>
+                    </section>
+                </article>
+            </body>
+        </html>
+    </xsl:template>
+</xsl:stylesheet>
