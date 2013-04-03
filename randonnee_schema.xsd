@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Des types personnalisés ont été créés pour les elements suivants afin 
+    d'améliorer la lisibilité du code. Même si en pratique seule la balise
+    <image /> revient plusieurs fois :
 
+    imageType pour <image />;
+    bandeauType pour <bandeau> </bandeau>;
+    locType pour <loc> </loc>;
+    altitudeType pour <altitude> </altitude>;
+    lieuType pour <lieu> </lieu>;
+    communeType pour <commune> </commune>;
+    cheminType pour <type> </type>.
+
+    Définitions en fin de document.
+-->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     targetNamespace="https://github.com/kamek-pf/xml-hike"
     xmlns="https://github.com/kamek-pf/xml-hike"
@@ -7,31 +21,10 @@
     <xs:element name="randonnee">
         <xs:complexType>
             <xs:sequence>
+
                 <xs:element name="nom" type="xs:string" />
-
-                <xs:element name="bandeau">
-                    <xs:complexType>
-                        <xs:sequence>
-                            <xs:element name="circuit" type="xs:string" />
-
-                            <xs:element name="image">
-                                <xs:complexType>
-                                    <xs:attribute name="nom" type="xs:string" />
-                                    <xs:attribute name="src" type="xs:string" />
-                                </xs:complexType>
-                            </xs:element>
-
-                        </xs:sequence>
-                    </xs:complexType>
-                </xs:element>
-
-                <xs:element name="image">
-                    <xs:complexType>
-                        <xs:attribute name="nom" type="xs:string" />
-                        <xs:attribute name="src" type="xs:string" />
-                    </xs:complexType>
-                </xs:element>
-
+                <xs:element name="bandeau" type="bandeauType" />
+                <xs:element name="image" type="imageType" />
                 <xs:element name="situation" type="xs:string" />
                 <xs:element name="introduction" type="xs:string" />
                 <xs:element name="description" type="xs:string" />
@@ -40,28 +33,13 @@
                     <xs:complexType>
                         <xs:sequence>
 
-                            <xs:element name="etape" maxOccurs="10" minOccurs="0">
+                            <xs:element name="etape" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
                                         <xs:element name="id" type="xs:string" />
                                         <xs:element name="titre" type="xs:string" />
-
-                                        <xs:element name="image">
-                                            <xs:complexType>
-                                                <xs:attribute name="nom" type="xs:string" />
-                                                <xs:attribute name="src" type="xs:string" />
-                                            </xs:complexType>
-                                        </xs:element>
-
-                                        <xs:element name="loc">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="latitude" type="xs:string" />
-                                                    <xs:element name="longitude" type="xs:string" />
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-
+                                        <xs:element name="image" type="imageType" />
+                                        <xs:element name="loc" type="locType" />
                                         <xs:element name="distance" type="xs:string" />
                                         <xs:element name="temps" type="xs:string" />
                                         <xs:element name="description" type="xs:string" />
@@ -82,37 +60,10 @@
                             <xs:element name="epoque" type="xs:string" />
                             <xs:element name="denivele" type="xs:string" />
                             <xs:element name="longueur" type="xs:string" />
-
-                            <xs:element name="altitude">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="depart" type="xs:string" />
-                                        <xs:element name="arrivee" type="xs:string" />
-                                        <xs:element name="max" type="xs:string" />
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-
+                            <xs:element name="altitude" type="altitudeType" />
                             <xs:element name="temps" type="xs:string" />
-
-                            <xs:element name="lieu">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="depart" type="xs:string" />
-                                        <xs:element name="arrivee" type="xs:string" />
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-
-                            <xs:element name="commune">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="depart" type="xs:string" />
-                                        <xs:element name="arrivee" type="xs:string" />
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-
+                            <xs:element name="lieu" type="lieuType" />
+                            <xs:element name="commune" type="communeType" />
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
@@ -125,17 +76,7 @@
                             <xs:element name="nom" type="xs:string" />
                             <xs:element name="acces" type="xs:string" />
                             <xs:element name="parking" type="xs:string" />
-
-                            <xs:element name="type">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="parcours" type="xs:string" />
-                                        <xs:element name="chemin" type="xs:string" />
-                                        <xs:element name="terrain" type="xs:string" />
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-
+                            <xs:element name="type" type="cheminType" />
                             <xs:element name="materiel" type="xs:string" />
                         </xs:sequence>
                     </xs:complexType>
@@ -144,4 +85,58 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+
+
+    <!-- 
+         Declaration des types personalisés 
+    -->
+    <xs:complexType name="imageType">
+        <xs:attribute name="nom" type="xs:string" />
+        <xs:attribute name="src" type="xs:string" />
+    </xs:complexType>
+
+    <xs:complexType name="bandeauType">
+        <xs:sequence>
+            <xs:element name="circuit" type="xs:string" />
+            <xs:element name="image" type="imageType" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="locType">
+        <xs:sequence>
+            <xs:element name="latitude" type="xs:string" />
+            <xs:element name="longitude" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="altitudeType">
+        <xs:sequence>
+            <xs:element name="depart" type="xs:string" />
+            <xs:element name="arrivee" type="xs:string" />
+            <xs:element name="max" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="lieuType">
+        <xs:sequence>
+            <xs:element name="depart" type="xs:string" />
+            <xs:element name="arrivee" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="communeType">
+        <xs:sequence>
+            <xs:element name="depart" type="xs:string" />
+            <xs:element name="arrivee" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="cheminType">
+        <xs:sequence>
+            <xs:element name="parcours" type="xs:string" />
+            <xs:element name="chemin" type="xs:string" />
+            <xs:element name="terrain" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
 </xs:schema>
