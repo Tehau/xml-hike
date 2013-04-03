@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="to_html.xsl" type="text/xsl"?>
 
-<randonnee>
+<randonnee xmlns="https://github.com/kamek-pf/xml-hike"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://github.com/kamek-pf/xml-hike randonnee_schema.xsd">
     <nom>Le Layens depuis Osse-en-Aspe.</nom>
     <bandeau>
         <circuit>Pas de circuit</circuit>
         <image nom="image principale" src="documents/images/50.jpg" />
     </bandeau>
-    <photo>
-        <image nom="main" src="documents/images/layens/main.jpg" />
-    </photo>
+    <image nom="main" src="documents/images/layens/main.jpg" />
     <situation>Vallée d'Aspe, Bassin de Bedous.</situation>
     <introduction>
         Les crêtes du Layens dans un ample paysage pastoral
