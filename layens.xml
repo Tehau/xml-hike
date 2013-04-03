@@ -44,7 +44,7 @@
                 <longitude>-0.6137323</longitude>
             </loc>
             <distance>1485m</distance>
-            <temps>00h45</temps>
+            <temps>00:45:00</temps>
             <description>
                 (Alt. 710 m). 500 m en aval de la ferme Capdevielle, démarrer
                 au niveau d'un vieux panneau (tour du...), en direction de l'est.
@@ -75,7 +75,7 @@
                 <longitude>-0.631750</longitude>
             </loc>
             <distance>1210m</distance>
-            <temps>00h30</temps>
+            <temps>00:30:00</temps>
             <description>
                 (Alt. 1000 m). Le chemin, en quelques virages, conduit aux
                 ruines d'une cabane sous un frêne isolé (1010 m). Abreuvoir.
@@ -95,7 +95,7 @@
                 <longitude>-0.637820</longitude>
             </loc>
             <distance>965m</distance>
-            <temps>00h25</temps>
+            <temps>00:25:00</temps>
             <description>
                 (1h30) Une traversée facile en courbes de niveau conduit à la
                 première cabane détruite d'Arrés au toit de tôle dans un lapiaz
@@ -114,7 +114,7 @@
                 <longitude>-0.645393</longitude>
             </loc>
             <distance>544m</distance>
-            <temps>00h35</temps>
+            <temps>00:35:00</temps>
             <description>
                 Un abreuvoir indique le point de départ de la montée vers le
                 nord dans les contreforts du Soum de Lastutas sur les pentes
@@ -131,7 +131,7 @@
                 <longitude>-0.638052</longitude>
             </loc>
             <distance>905m</distance>
-            <temps>00h20</temps>
+            <temps>00:20:00</temps>
             <description>
                 ... col d'Houssa à 1503 m. Une crête facile vers l'ouest dans
                 des pentes herbeuses au milieu des genévriers étalés conduit
@@ -149,7 +149,7 @@
                 <longitude>-0.655413</longitude>
             </loc>
             <distance>770m</distance>
-            <temps>00h25</temps>
+            <temps>00:25:00</temps>
             <description>
                 Parvenez au sommet dominé par un pylône métallique de 2
                 mètres (en cas d'orage ne restez pas là !). Belvédère immense
@@ -166,7 +166,7 @@
                 <longitude>-0.655510</longitude>
             </loc>
             <distance>745m</distance>
-            <temps>00h30</temps>
+            <temps>00:30:00</temps>
             <description>
                 Retour : Du sommet, plonger plein sud dans des pentes
                 herbeuses peu raides d'environ 200 mètres vers un ensemble
@@ -183,7 +183,7 @@
                 <longitude>-0.653864</longitude>
             </loc>
             <distance>670m</distance>
-            <temps>00h30</temps>
+            <temps>00:30:00</temps>
             <description>
                 Prendre cette piste vers l'est et passer au-dessus de la cabane
             </description>
@@ -197,7 +197,7 @@
                 <longitude>-0.631750</longitude>
             </loc>
             <distance>4380m</distance>
-            <temps>01h00</temps>
+            <temps>01:00:00</temps>
             <description>
                 ...puis d'une autre sans nom sur la carte IGN, moderne et
                 refaite à neuf, pour rejoindre le chemin au grand abreuvoir de
@@ -237,7 +237,7 @@
             <arrivee>1625m</arrivee>
             <max>1625m</max>
         </altitude>
-        <temps>05:00:00 h</temps>
+        <temps>05:00:00</temps>
         <lieu>
             <depart>Parking du Layens</depart>
             <arrivee>Parking du Layens</arrivee>

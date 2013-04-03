@@ -24,7 +24,7 @@
 
                 <xs:element name="nom" type="xs:string" />
                 <xs:element name="bandeau" type="bandeauType" />
-                <xs:element name="image" type="imageType" />
+                <xs:element name="image" type="imageType" minOccurs="0" />
                 <xs:element name="situation" type="xs:string" />
                 <xs:element name="introduction" type="xs:string" />
                 <xs:element name="description" type="xs:string" />
@@ -36,9 +36,9 @@
                             <xs:element name="etape" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="id" type="xs:string" />
+                                        <xs:element name="id" type="xs:integer" />
                                         <xs:element name="titre" type="xs:string" />
-                                        <xs:element name="image" type="imageType" />
+                                        <xs:element name="image" type="imageType" minOccurs="0" />
                                         <xs:element name="loc" type="locType" />
                                         <xs:element name="distance" type="xs:string" />
                                         <xs:element name="temps" type="xs:string" />
@@ -61,7 +61,7 @@
                             <xs:element name="denivele" type="xs:string" />
                             <xs:element name="longueur" type="xs:string" />
                             <xs:element name="altitude" type="altitudeType" />
-                            <xs:element name="temps" type="xs:string" />
+                            <xs:element name="temps" type="xs:time" />
                             <xs:element name="lieu" type="lieuType" />
                             <xs:element name="commune" type="communeType" />
                         </xs:sequence>
@@ -104,8 +104,8 @@
 
     <xs:complexType name="locType">
         <xs:sequence>
-            <xs:element name="latitude" type="xs:string" />
-            <xs:element name="longitude" type="xs:string" />
+            <xs:element name="latitude" type="xs:decimal" />
+            <xs:element name="longitude" type="xs:decimal" />
         </xs:sequence>
     </xs:complexType>
 
