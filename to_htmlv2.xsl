@@ -19,15 +19,30 @@
 
     </xsl:template>
 
+
+    <!-- Variables CSS a passer en parametre aux templates -->
+    <xsl:variable name="class_bandeau">bandeau</xsl:variable>
+    <xsl:variable name="class_step">block width550 fleft</xsl:variable>
+
+    
+    <!-- 
+        Appel des templates definis en fin de documents dans le bon ordre     
+    -->
     <xsl:template match="randonnee/bandeau">
-        <xsl:call-template name="image" />
+        <xsl:call-template name="image">
+            <xsl:with-param name="classes" select="$class_step" />
+        </xsl:call-template>
     </xsl:template>
 
+
+    <!-- Definition des templates -->
     <xsl:template name="image">
+        <xsl:param name="classes" /> 
         <img>
             <xsl:attribute name="src">
                 <xsl:value-of select="image/@src" />
             </xsl:attribute>
+            <xsl:attribute name="class"><xsl:value-of select="$classes" /></xsl:attribute>
         </img>
     </xsl:template>
 
