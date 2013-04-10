@@ -21,21 +21,49 @@
 
 
     <!-- Variables CSS a passer en parametre aux templates -->
-    <xsl:variable name="class_bandeau">bandeau</xsl:variable>
-    <xsl:variable name="class_step">block width550 fleft</xsl:variable>
+    <xsl:variable name="c_bandeau">bandeau </xsl:variable>
+    <xsl:variable name="c_step">block width550 fleft </xsl:variable>
+    <xsl:variable name="c_justify">justify </xsl:variable>
+    <xsl:variable name="c_center">center </xsl:variable>
 
-    
+
     <!-- 
-        Appel des templates definis en fin de documents dans le bon ordre     
+        On appel les templates definis en fin de document pour generer la page HTML.
+        On passe les classes CSS en parametre (avec xsl:with-param) aux balises
+        HTML concernees.
+        Pour les balises auxquelles on doit affecter plusieurs classes CSS, on utilise
+        la fonction concat() lors du passage du parametre.
     -->
-    <xsl:template match="randonnee/bandeau">
+    <xsl:template match="bandeau">
         <xsl:call-template name="image">
-            <xsl:with-param name="classes" select="$class_step" />
+            <xsl:with-param name="classes" select="concat($c_bandeau, $c_step)" />
         </xsl:call-template>
     </xsl:template>
 
+    <xsl:template match="introduction">
+        <xsl:call-template name="p">
+            <xsl:with-param name="classes" select="$c_center" />
+        </xsl:call-template>
+    </xsl:template>
+    
+    <xsl:template match="randonnee/description">
+        <xsl:call-template name="p">
+            <xsl:with-param name="classes" select="$c_justify" />
+        </xsl:call-template>
+    </xsl:template>
 
-    <!-- Definition des templates -->
+    <xsl:template match="etape">
+        <xsl:call-template name="titreEtape" />
+        <xsl:call-template name="p" />
+    </xsl:template>
+
+
+
+
+    <!-- 
+         Definition des templates 
+    -->
+    <!-- Afficher une image -->
     <xsl:template name="image">
         <xsl:param name="classes" /> 
         <img>
@@ -44,6 +72,24 @@
             </xsl:attribute>
             <xsl:attribute name="class"><xsl:value-of select="$classes" /></xsl:attribute>
         </img>
+    </xsl:template>
+
+    <!-- Afficher un paragraphe -->
+    <xsl:template name="p">
+         <xsl:param name="classes" /> 
+        <p>
+            <xsl:attribute name="class"><xsl:value-of select="$classes" /></xsl:attribute>
+            <xsl:value-of select="."/>
+        </p>
+    </xsl:template>
+
+    <!-- Afficher le titre d'une etape -->
+    <xsl:template name="titreEtape">
+         <xsl:param name="classes" /> 
+        <h4>
+            <xsl:attribute name="class"><xsl:value-of select="$classes" /></xsl:attribute>
+            <xsl:value-of select="id" /> -  <xsl:value-of select="titre" />
+        </h4>
     </xsl:template>
 
 </xsl:stylesheet>
