@@ -2,9 +2,8 @@
 <?xml-stylesheet href="to_html.xsl" type="text/xsl"?>
 
 <randonnee 
-    xmlns="https://github.com/kamek-pf/xml-hike"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://github.com/kamek-pf/xml-hike randonnee_schema.xsd">
+    xsi:noNamespaceSchemaLocation="randonnee_schema.xsd">
     
     <nom>Le Layens depuis Osse-en-Aspe.</nom>
     <bandeau>
