@@ -18,11 +18,16 @@
                      elements de <randonnee /> afin de les placer dans les bonnes
                      sections (pour les CSS)
                 -->
-                <xsl:apply-templates select="randonnee/nom | randonnee/bandeau | randonnee/image" />
+                <xsl:apply-templates select="randonnee/bandeau/image" />
+                <xsl:apply-templates select="randonnee/bandeau/circuit" />
+                <xsl:apply-templates select="randonnee/nom | randonnee/situation" />
                 <article>
+                    <xsl:apply-templates select="randonnee/image" />
                     <section class="inblock width450">
                         <xsl:apply-templates select="randonnee/introduction | randonnee/description" />
                     </section>
+                    <img class="bandeau" src="documents/images/50.jpg" />
+                    <h2>Description</h2>
                     <section class="block width550 fleft">
                         <xsl:apply-templates select="randonnee/etapes" />
                     </section>
@@ -58,14 +63,24 @@
         On appel les templates definis en fin de document pour generer la page HTML.
         On passe les classes CSS en parametre (avec xsl:with-param) aux balises
         HTML concernees.
-        Pour les balises auxquelles on doit affecter plusieurs classes CSS, on utilise
-        la fonction concat() lors du passage du parametre.
     -->
 
-    <xsl:template match="bandeau/*">
+    <xsl:template match="nom">
+        <xsl:call-template name="h1" />
+    </xsl:template>
+    
+    <xsl:template match="situation">
+        <xsl:call-template name="h3" />
+    </xsl:template>
+
+    <xsl:template match="bandeau/image">
         <xsl:call-template name="image">
-            <xsl:with-param name="classes" select="concat($c_bandeau, $c_step)" />
+            <xsl:with-param name="classes" select="$c_bandeau" />
         </xsl:call-template>
+    </xsl:template>
+
+    <xsl:template match="bandeau/circuit">
+        <xsl:call-template name="h2" />
     </xsl:template>
 
     <xsl:template match="randonnee/image">
@@ -139,6 +154,33 @@
             <xsl:attribute name="class"><xsl:value-of select="$classes" /></xsl:attribute>
             <xsl:value-of select="."/>
         </p>
+    </xsl:template>
+
+    <!-- Afficher un titre de niveau 1 -->
+    <xsl:template name="h1">
+        <xsl:param name="classes" /> 
+        <h1>
+            <xsl:attribute name="class"><xsl:value-of select="$classes" /></xsl:attribute>
+            <xsl:value-of select="."/>
+        </h1>
+    </xsl:template>
+    
+    <!-- Afficher un titre de niveau 1 -->
+    <xsl:template name="h2">
+        <xsl:param name="classes" /> 
+        <h2>
+            <xsl:attribute name="class"><xsl:value-of select="$classes" /></xsl:attribute>
+            <xsl:value-of select="."/>
+        </h2>
+    </xsl:template>
+
+    <!-- Afficher un titre de niveau 3 -->
+    <xsl:template name="h3">
+        <xsl:param name="classes" /> 
+        <h3>
+            <xsl:attribute name="class"><xsl:value-of select="$classes" /></xsl:attribute>
+            <xsl:value-of select="."/>
+        </h3>
     </xsl:template>
 
     <!-- Afficher les noms des sous parties des fiches techniques ou d'information -->
