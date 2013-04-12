@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Le Layens depuis Osse-en-Aspe.</name>
+      <description>
+        Les crêtes du Layens dans un ample paysage pastoral
+        offrent des vues variées sur les montagnes d'Aspe. Des
+        lointains basques parsemés de fermes blanches et
+        par-dessus les arêtes d'Ossau jusqu'en Bigorre, c'est une
+        marche facile qui peut intéresser les randonneurs débutants
+        et autres amoureux des grands espaces
+    </description>
+      <LineString>
+        <coordinates>-0.6137323,43.0129947-0.631750,43.017631-0.637820,43.016564-0.645393,43.020848-0.638052,43.021052-0.655413,43.025064-0.655510,43.024804-0.653864,43.018814-0.631750,43.017631</coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark xmlns="">
+      <name>La ferme Capdevielle</name>
+      <description>
+                (Alt. 710 m). 500 m en aval de la ferme Capdevielle, démarrer
+                au niveau d'un vieux panneau (tour du...), en direction de l'est.
+                Une petite sente marquée remonte le talus de la route. La
+                suivre sur une quarantaine de mètres de dénivelé par un vague
+                sentier encombré de ronces et de prunelliers hirsutes en
+                direction du nord dans un enchevêtrement de sentes
+                d'animaux. Au bout de 10 minutes, revenez après un virage
+                vers le sud en direction d'un bois de chêne. Une traversée à
+                flanc toujours dans un enchevêtrement de ronces abrasives,
+                conduit à l'entrée du bois où le sentier devient d'un coup plus
+                large, plus clair et plus facile, comme il est proposé sur la carte
+                IGN. (0h20) Remonter jusqu'à revenir presque à l'aplomb de la
+                ferme Capdevielle (balise jaune et rouge sur un arbre). Le
+                sentier conduit à la sortie du bois pour s'élancer sur les flancs
+                sud du Layens. La progression devient agréable, le rythme de
+                la marche magnifique au-dessus du formidable bassin de
+                Bedous. Quelques chênes isolés et parsemés indiquent la limite
+                supérieure de ce type d'arbres.
+            </description>
+      <Point>
+        <coordinates>-0.6137323,43.0129947</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark xmlns="">
+      <name>Les ruines de la cabane du Layens</name>
+      <description>
+                (Alt. 1000 m). Le chemin, en quelques virages, conduit aux
+                ruines d'une cabane sous un frêne isolé (1010 m). Abreuvoir.
+                Poursuivre au-dessus facilement en gagnant de l'altitude
+                jusqu'à venir buter sur une clôture de fil électrique à l'aplomb
+                d'un abrupt impressionnant. Contourner cet obstacle par des
+                zigzags faciles jusqu'au point 1245 m indiqué sur la carte.
+                (1h15 du départ)
+            </description>
+      <Point>
+        <coordinates>-0.631750,43.017631</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark xmlns="">
+      <name>La cabane d'Arrés</name>
+      <description>
+                (1h30) Une traversée facile en courbes de niveau conduit à la
+                première cabane détruite d'Arrés au toit de tôle dans un lapiaz
+                affleurant. L'abondance de ruines d'enclos de pierres traduit
+                l'importance de ces estives. Contourner par le nord et rejoindre
+                la deuxième cabane d'Arrés en bien meilleur état dans un
+                paysage tourmenté.
+            </description>
+      <Point>
+        <coordinates>-0.637820,43.016564</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark xmlns="">
+      <name>Soum de Lastutas</name>
+      <description>
+                Un abreuvoir indique le point de départ de la montée vers le
+                nord dans les contreforts du Soum de Lastutas sur les pentes
+                faciles dans lesquelles on effectue des virages pour s'élever en
+                écharpe jusqu'au....
+            </description>
+      <Point>
+        <coordinates>-0.645393,43.020848</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark xmlns="">
+      <name>Le col d'Houssa</name>
+      <description>
+                ... col d'Houssa à 1503 m. Une crête facile vers l'ouest dans
+                des pentes herbeuses au milieu des genévriers étalés conduit
+                à un collet anonyme (1550 m) au pied du dernier ressaut du
+                Layens que l'on franchit facilement. Nous appellerons le collet
+                du nom du sommet le plus proche à l'est : col de Lastutas.
+            </description>
+      <Point>
+        <coordinates>-0.638052,43.021052</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark xmlns="">
+      <name>Sommet du Layens</name>
+      <description>
+                Parvenez au sommet dominé par un pylône métallique de 2
+                mètres (en cas d'orage ne restez pas là !). Belvédère immense
+                sur le Pic du midi de Bigorre, le Gabizos, le Ger, Sesques,
+                Bisaurin, Anie, Orhy et la plaine de Pau.
+            </description>
+      <Point>
+        <coordinates>-0.655413,43.025064</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark xmlns="">
+      <name>Versant sud du Layens</name>
+      <description>
+                Retour : Du sommet, plonger plein sud dans des pentes
+                herbeuses peu raides d'environ 200 mètres vers un ensemble
+                de cabanes aux toits de tôles posé au bord de la piste qui
+                monte du col de Bergout vers la cabane de Ligarce.
+            </description>
+      <Point>
+        <coordinates>-0.655510,43.024804</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark xmlns="">
+      <name>La cabane de Ligarce</name>
+      <description>
+                Prendre cette piste vers l'est et passer au-dessus de la cabane
+            </description>
+      <Point>
+        <coordinates>-0.653864,43.018814</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark xmlns="">
+      <name>Cabane du Layens</name>
+      <description>
+                ...puis d'une autre sans nom sur la carte IGN, moderne et
+                refaite à neuf, pour rejoindre le chemin au grand abreuvoir de
+                ce matin au-dessus de la cabane d'Arres. Depuis ce point, le
+                retour s'effectue par le même chemin que ce matin dans les
+                pelouses puis les ruines de la cabane du Layens en 1h00
+                jusqu'à la voiture. La totalité de la boucle s'effectue en 5h00.
+            </description>
+      <Point>
+        <coordinates>-0.631750,43.017631</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
