@@ -15,6 +15,7 @@ Réalisé sans IDE, parce que c'est le mal, à l'aide de :
                          xmllint --schema schema.xsd file.xml)
 
 - xsltproc (paquet libxslt) pour la transformation XML -> HTML
-    (commande utilisée : xsltproc file.xml > file.html)
+    (commande utilisée : xsltproc stylesheet1.xsl file.xml > file.html
+						 xsltproc stylesheet2.xsl file.xml > file.kml)
 
 Git : https://github.com/kamek-pf/xml-hike.git
